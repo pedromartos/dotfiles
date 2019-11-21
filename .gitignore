@@ -1,30 +1,30 @@
-.bash_history
-.bash_logout
-.box_setup/
-.cache/
+/*
 
-.config/
-!.config/dconf/*
-!.config/sublime-text-3/Installed Packages/*
-!.config/sublime-text-3/Packages/*
+# Save Sublime Text Packages/User folder
+!.config
+.config/*
+!.config/sublime-text-3
+.config/sublime-text-3/*
+!.config/sublime-text-3/Packages
+.config/sublime-text-3/Packages/*
+!.config/sublime-text-3/Packages/User
 
-.gnome/
-.gnupg/
+# Save DCONF
+!.config/dconf
 
-.local/
-!.local/share/gnome-shell/extensions/*
+# Save GNOME Extensions
+!.local
+.local/*
+!.local/share
+.local/share/*
+!.local/share/gnome-shell
+.local/share/gnome-shell/*
+!.local/share/gnome-shell/extensions
 
-.mozilla/
-.node-gyp/
-.npm/
-.nv/
-.nvm/
-.pam_environment
-.pki/
-.ssh/
-.sudo_as_admin_successful
-.viminfo
-.vim/.netrwhist
-Downloads/
-sandbox/
 
+!.bash_profile
+!.bashrc
+!.bashrc_files/*
+!.gitconfig
+!.gitignore
+!.profile
