@@ -1,0 +1,9 @@
+# some more ls aliases
+alias l='ls -lFh'
+alias ll='ls -la'
+alias la='ls -A'
+
+# Reload bashrc
+alias brc='source ~/.bashrc'
+
+alias lxterminal="lxterminal -e \"bash -il\""
