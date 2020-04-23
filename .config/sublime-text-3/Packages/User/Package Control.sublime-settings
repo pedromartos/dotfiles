@@ -7,10 +7,16 @@
 	[
 		"Better CoffeeScript",
 		"Emmet",
+		"GitGutter",
 		"Jade",
 		"JavaScript Ultimate",
 		"Package Control",
 		"Sass",
-		"Vue Syntax Highlight"
+		"Vue Syntax Highlight",
+		"EditorConfig",
+		"EJS 2",
+		"LESS",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint_d"
 	]
 }
